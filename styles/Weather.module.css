@@ -1,295 +1,103 @@
-/* Weather.module.css */
+/* Styles for the container of the weather card */
 /*.cardContainer {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    height: 100vh; !*  height to 100% of the viewport height *!*/
-/*}*/
-
-/*.weatherCard {*/
-/*    border: 1px solid #ffffff;*/
-/*    padding: 20px;*/
-/*    margin-top: 20px;*/
-/*    text-align: center;*/
-/*}*/
-
-
-/* Weather.module.css */
-/*.cardContainer {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
+/*    display: flex; !* Use flexbox for layout *!*/
+/*    flex-direction: column; !* Stack children vertically *!*/
+/*    align-items: center; !* Center items along the cross-axis *!*/
+/*    justify-content: center; !* Center items along the main axis *!*/
 /*    height: 100vh; !* Set the height to 100% of the viewport height *!*/
 /*}*/
 
+/*!* Styles for the container of the input and button *!*/
 /*.inputContainer {*/
-/*    margin-top: 10px;*/
+/*    margin-top: 10px; !* Add top margin for spacing *!*/
 /*}*/
 
-/*.weatherCard {*/
-/*    border: 1px solid #ccc;*/
-/*    padding: 20px;*/
-/*    margin-top: 20px;*/
-/*    text-align: center;*/
-/*}*/
-
-/* Weather.module.css */
-/*.cardContainer {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    height: 100vh; !* Set the height to 100% of the viewport height *!*/
-/*}*/
-
-/*.inputContainer {*/
-/*    margin-top: 10px;*/
-/*}*/
-
-/*input {*/
-/*    padding: 10px;*/
-/*    font-size: 16px;*/
-/*    border: 1px solid #ddd;*/
-/*    border-radius: 5px;*/
-/*    margin-right: 10px;*/
-/*    transition: border-color 0.3s ease-in-out;*/
-/*}*/
-
-/*input:hover {*/
-/*    border-color: #3498db;*/
-/*}*/
-
-/*button {*/
-/*    padding: 10px 15px;*/
-/*    font-size: 16px;*/
-/*    background-color: #3498db;*/
-/*    color: #fff;*/
-/*    border: none;*/
-/*    border-radius: 5px;*/
-/*    cursor: pointer;*/
-/*    transition: background-color 0.3s ease-in-out;*/
-/*}*/
-
-/*button:hover {*/
-/*    background-color: #2980b9;*/
-/*}*/
-
-/*.weatherCard {*/
-/*    border: 1px solid #ccc;*/
-/*    padding: 20px;*/
-/*    margin-top: 20px;*/
-/*    text-align: center;*/
-/*}*/
-
-/*!* Additional styles for better readability *!*/
-/*h1 {*/
-/*    color: #3498db;*/
-/*}*/
-
-/*h2 {*/
-/*    color: #333;*/
-/*}*/
-
-/*p {*/
-/*    color: #555;*/
-/*}*/
-
-
-/* Weather.module.css */
-/*.cardContainer {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    height: 100vh; !* Set the height to 100% of the viewport height *!*/
-/*}*/
-
-/*.inputContainer {*/
-/*    margin-top: 10px;*/
-/*}*/
-
+/*!* Styles for the search input *!*/
 /*.searchInput {*/
-/*    padding: 10px;*/
-/*    font-size: 16px;*/
-/*    border: 1px solid #ddd;*/
-/*    border-radius: 5px;*/
-/*    margin-right: 10px;*/
-/*    transition: border-color 0.3s ease-in-out;*/
+/*    padding: 10px; !* Add padding to the input *!*/
+/*    font-size: 16px; !* Set the font size *!*/
+/*    border: 1px solid #ddd; !* Add a border with a light color *!*/
+/*    border-radius: 5px; !* Add rounded corners *!*/
+/*    margin-right: 10px; !* Add right margin for spacing *!*/
+/*    transition: border-color 0.3s ease-in-out; !* Smooth transition on border color change *!*/
 /*}*/
 
+/*!* Styles for the search input on hover *!*/
 /*.searchInput:hover {*/
-/*    border-color: #3498db;*/
+/*    border-color: #e52222; !* Change border color on hover to a different color *!*/
 /*}*/
 
+/*!* Styles for the search button *!*/
 /*.searchButton {*/
-/*    padding: 10px 15px;*/
-/*    font-size: 16px;*/
-/*    background-color: #3498db;*/
-/*    color: #fff;*/
-/*    border: none;*/
-/*    border-radius: 5px;*/
-/*    cursor: pointer;*/
-/*    transition: background-color 0.3s ease-in-out;*/
+/*    padding: 10px 15px; !* Add padding to the button *!*/
+/*    font-size: 16px; !* Set the font size *!*/
+/*    background-color: rgba(183, 49, 49, 0.8); !* Set the background color with alpha *!*/
+/*    color: #fff; !* Set the text color *!*/
+/*    border: none; !* Remove the border *!*/
+/*    border-radius: 5px; !* Add rounded corners *!*/
+/*    cursor: pointer; !* Set cursor to pointer for interaction *!*/
+/*    transition: background-color 0.3s ease-in-out; !* Smooth transition on background color change *!*/
 /*}*/
 
+/*!* Styles for the search button on hover *!*/
 /*.searchButton:hover {*/
-/*    background-color: #2980b9;*/
+/*    background-color: #c91010; !* Change background color on hover to a different color *!*/
 /*}*/
 
+/*!* Styles for the weather card container *!*/
 /*.weatherCard {*/
-/*    border: 1px solid #ccc;*/
-/*    padding: 20px;*/
-/*    margin-top: 20px;*/
-/*    text-align: center;*/
-/*}*/
-
-/*!* Additional styles for better readability *!*/
-/*h1 {*/
-/*    color: #3498db;*/
-/*}*/
-
-/*h2 {*/
-/*    color: #333;*/
-/*}*/
-
-/*p {*/
-/*    color: #555;*/
-/*}*/
-
-
-/* Weather.module.css */
-/*.cardContainer {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    height: 100vh; !* Set the height to 100% of the viewport height *!*/
-/*}*/
-
-/*.inputContainer {*/
-/*    margin-top: 10px;*/
-/*}*/
-
-/*.searchInput {*/
-/*    padding: 10px;*/
-/*    font-size: 16px;*/
-/*    border: 1px solid #ddd;*/
-/*    border-radius: 5px;*/
-/*    margin-right: 10px;*/
-/*    transition: border-color 0.3s ease-in-out;*/
-/*}*/
-
-/*.searchInput:hover {*/
-/*    border-color: #3498db;*/
-/*}*/
-
-/*.searchButton {*/
-/*    padding: 10px 15px;*/
-/*    font-size: 16px;*/
-/*    background-color: #3498db;*/
-/*    color: #fff;*/
-/*    border: none;*/
-/*    border-radius: 5px;*/
-/*    cursor: pointer;*/
-/*    transition: background-color 0.3s ease-in-out;*/
-/*}*/
-
-/*.searchButton:hover {*/
-/*    background-color: #2980b9;*/
-/*}*/
-
-/*.weatherCard {*/
-/*    border: 1px solid #ccc;*/
-/*    padding: 20px;*/
-/*    margin-top: 20px;*/
-/*    text-align: center;*/
+/*    border: 1px solid #e71414; !* Add a border with a different color *!*/
+/*    padding: 20px; !* Add padding to the card *!*/
+/*    margin-top: 20px; !* Add top margin for spacing *!*/
+/*    text-align: center; !* Center text within the card *!*/
 /*}*/
 
 /*!* Additional styles for better readability *!*/
 /*.heading {*/
-/*    color: #3498db;*/
+/*    color: #b419c5; !* Set color for the heading *!*/
 /*}*/
 
-/*h2 {*/
-/*    color: #333;*/
-/*}*/
-
-/*p {*/
-/*    color: #555;*/
-/*}*/
-
-
-/* Weather.module.css */
-/*.cardContainer {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    height: 100vh; !* Set the height to 100% of the viewport height *!*/
-/*}*/
-
-/*.inputContainer {*/
-/*    margin-top: 10px;*/
-/*}*/
-
-/*.searchInput {*/
-/*    padding: 10px;*/
-/*    font-size: 16px;*/
-/*    border: 1px solid #ddd;*/
-/*    border-radius: 5px;*/
-/*    margin-right: 10px;*/
-/*    transition: border-color 0.3s ease-in-out;*/
-/*}*/
-
-/*.searchInput:hover {*/
-/*    border-color: #3498db;*/
-/*}*/
-
-/*.searchButton {*/
-/*    padding: 10px 15px;*/
-/*    font-size: 16px;*/
-/*    background-color: #3498db;*/
-/*    color: #fff;*/
-/*    border: none;*/
-/*    border-radius: 5px;*/
-/*    cursor: pointer;*/
-/*    transition: background-color 0.3s ease-in-out;*/
-/*}*/
-
-/*.searchButton:hover {*/
-/*    background-color: #2980b9;*/
-/*}*/
-
-/*.weatherCard {*/
-/*    border: 1px solid #ccc;*/
-/*    padding: 20px;*/
-/*    margin-top: 20px;*/
-/*    text-align: center;*/
-/*}*/
-
-/*!* Additional styles for better readability *!*/
-/*.heading {*/
-/*    color: #3498db;*/
+/*.weatherTitle {*/
+/*    color: #333; !* Set color for the weather title *!*/
 /*}*/
 
 /*!* Add style for the new class *!*/
-/*.weatherTitle {*/
-/*    color: #333;*/
+/*.weatherText {*/
+/*    color: #555; !* Set color for the weather text *!*/
 /*}*/
 
-/*p {*/
-/*    color: #555;*/
-/*}*/
 
 /* Weather.module.css */
+.pageContainer {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.videoBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
 .cardContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Set the height to 100% of the viewport height */
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 .inputContainer {
@@ -331,16 +139,54 @@
     text-align: center;
 }
 
-/* Additional styles for better readability */
-.heading {
-    color: #b419c5;
-}
-
 .weatherTitle {
     color: #333;
 }
 
-/* Add style for the new class */
 .weatherText {
-    color: #555;
+    color: #fff;
+}
+/**/
+.pageContainer {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.videoBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+/*.innerCard {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    padding: 20px;*/
+/*    border-radius: 10px;*/
+/*    background-color: rgba(0, 0, 0, 0.8);
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*}*/
+.innerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px; /* Set a maximum width for the inner card */
+    margin-left: auto;
+    margin-right: auto;/* Center the inner card horizontally */
+    margin-top: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark grey background color with transparency */
+    color: #fff;
+    text-align: center;
 }

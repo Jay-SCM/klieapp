@@ -1,31 +1,37 @@
-/* styles/footer.module.css */
+
+/* Styles for the footer container */
 .footer {
-    background-color: rgba(40, 39, 39, 0.8);
-    padding: 20px;
-    text-align: center;
+    background-color: rgba(40, 39, 39, 0.8); /* Semi-transparent dark background color */
+    padding: 20px; /* Padding around the content within the footer */
+    text-align: center; /* Center-align the text content */
 }
 
+/* Styles for the heading within the footer */
 .footer-heading {
-    color: #333;
+    color: #333; /* Set the text color to a dark shade */
 }
 
+/* Styles for the list within the footer */
 .footer-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display list items in a row */
+    justify-content: center; /* Center-align the list items horizontally */
+    margin-top: 10px; /* Add some space at the top of the list */
 }
 
+/* Styles for each list item within the footer */
 .footer-list-item {
-    margin: 0 10px;
+    margin: 0 10px; /* Add margin around each list item */
 }
 
+/* Styles for links within the footer */
 .footer-link {
-    text-decoration: none;
-    color: #555;
+    text-decoration: none; /* Remove default text decoration for links */
+    color: #555; /* Set the default text color for links */
 }
 
+/* Styles for link hover state within the footer */
 .footer-link:hover {
-    color: #000;
+    color: #000; /* Change text color on hover to a darker shade */
 }

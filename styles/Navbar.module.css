@@ -1,24 +1,69 @@
-/* styles/Navbar.module.css */
+
+/* styles/Navbar.module.css with dropdown */
+
 .navbar {
-    background-color: #333;
+    background-color: #333; /* Set the background color of the navbar */
+    padding: 15px 0; /* Add padding to the navbar */
 }
 
+/* Styles for the list within the navbar */
 .navList {
-    list-style: none;
-    padding: 0;
-    display: flex;
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display list items in a row */
+    justify-content: space-around; /* Space out the list items evenly */
 }
 
+/* Styles for each list item within the navbar */
 .navItem {
-    margin-right: 15px;
+    position: relative; /* Create a positioning context for the dropdown */
 }
 
+/* Styles for links within each list item in the navbar */
 .navItem a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+    text-decoration: none; /* Remove default text decoration for links */
+    color: white; /* Set the default text color for links */
+    font-weight: bold; /* Make the font bold */
+    padding: 10px; /* Add padding around the link */
+    border-radius: 5px; /* Add rounded corners to the link */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition on background color change */
 }
 
+/* Styles for link hover state within the navbar */
 .navItem a:hover {
-    color: lightgray;
+    color: lightgray; /* Change text color on hover to a lighter shade */
+    background-color: #555; /* Change background color on hover */
+}
+
+/* Styles for the dropdown */
+.dropdown {
+    position: absolute; /* Position the dropdown absolutely */
+    top: 100%; /* Position it below the parent navItem */
+    left: 0; /* Align the dropdown with the left edge of the parent */
+    display: none; /* Hide the dropdown by default */
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    background-color: #555; /* Set the background color of the dropdown */
+}
+
+/* Show the dropdown when the parent navItem is hovered */
+.navItem:hover .dropdown {
+    display: block; /* Show the dropdown on hover */
+}
+
+/* Styles for each item within the dropdown */
+.dropdownItem {
+    padding: 10px; /* Add padding around each dropdown item */
+}
+
+/* Styles for links within the dropdown */
+.dropdownItem a {
+    color: white; /* Set the text color for links in the dropdown */
+    text-decoration: none; /* Remove default text decoration for links */
+    display: block; /* Display links as block elements */
+}
+
+/* Styles for link hover state within the dropdown */
+.dropdownItem a:hover {
+    background-color: #777; /* Change background color on hover */
 }
