@@ -1,0 +1,346 @@
+/* Weather.module.css */
+/*.cardContainer {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100vh; !*  height to 100% of the viewport height *!*/
+/*}*/
+
+/*.weatherCard {*/
+/*    border: 1px solid #ffffff;*/
+/*    padding: 20px;*/
+/*    margin-top: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+
+/* Weather.module.css */
+/*.cardContainer {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100vh; !* Set the height to 100% of the viewport height *!*/
+/*}*/
+
+/*.inputContainer {*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.weatherCard {*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 20px;*/
+/*    margin-top: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/* Weather.module.css */
+/*.cardContainer {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100vh; !* Set the height to 100% of the viewport height *!*/
+/*}*/
+
+/*.inputContainer {*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*input {*/
+/*    padding: 10px;*/
+/*    font-size: 16px;*/
+/*    border: 1px solid #ddd;*/
+/*    border-radius: 5px;*/
+/*    margin-right: 10px;*/
+/*    transition: border-color 0.3s ease-in-out;*/
+/*}*/
+
+/*input:hover {*/
+/*    border-color: #3498db;*/
+/*}*/
+
+/*button {*/
+/*    padding: 10px 15px;*/
+/*    font-size: 16px;*/
+/*    background-color: #3498db;*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.3s ease-in-out;*/
+/*}*/
+
+/*button:hover {*/
+/*    background-color: #2980b9;*/
+/*}*/
+
+/*.weatherCard {*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 20px;*/
+/*    margin-top: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*!* Additional styles for better readability *!*/
+/*h1 {*/
+/*    color: #3498db;*/
+/*}*/
+
+/*h2 {*/
+/*    color: #333;*/
+/*}*/
+
+/*p {*/
+/*    color: #555;*/
+/*}*/
+
+
+/* Weather.module.css */
+/*.cardContainer {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100vh; !* Set the height to 100% of the viewport height *!*/
+/*}*/
+
+/*.inputContainer {*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.searchInput {*/
+/*    padding: 10px;*/
+/*    font-size: 16px;*/
+/*    border: 1px solid #ddd;*/
+/*    border-radius: 5px;*/
+/*    margin-right: 10px;*/
+/*    transition: border-color 0.3s ease-in-out;*/
+/*}*/
+
+/*.searchInput:hover {*/
+/*    border-color: #3498db;*/
+/*}*/
+
+/*.searchButton {*/
+/*    padding: 10px 15px;*/
+/*    font-size: 16px;*/
+/*    background-color: #3498db;*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.3s ease-in-out;*/
+/*}*/
+
+/*.searchButton:hover {*/
+/*    background-color: #2980b9;*/
+/*}*/
+
+/*.weatherCard {*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 20px;*/
+/*    margin-top: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*!* Additional styles for better readability *!*/
+/*h1 {*/
+/*    color: #3498db;*/
+/*}*/
+
+/*h2 {*/
+/*    color: #333;*/
+/*}*/
+
+/*p {*/
+/*    color: #555;*/
+/*}*/
+
+
+/* Weather.module.css */
+/*.cardContainer {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100vh; !* Set the height to 100% of the viewport height *!*/
+/*}*/
+
+/*.inputContainer {*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.searchInput {*/
+/*    padding: 10px;*/
+/*    font-size: 16px;*/
+/*    border: 1px solid #ddd;*/
+/*    border-radius: 5px;*/
+/*    margin-right: 10px;*/
+/*    transition: border-color 0.3s ease-in-out;*/
+/*}*/
+
+/*.searchInput:hover {*/
+/*    border-color: #3498db;*/
+/*}*/
+
+/*.searchButton {*/
+/*    padding: 10px 15px;*/
+/*    font-size: 16px;*/
+/*    background-color: #3498db;*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.3s ease-in-out;*/
+/*}*/
+
+/*.searchButton:hover {*/
+/*    background-color: #2980b9;*/
+/*}*/
+
+/*.weatherCard {*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 20px;*/
+/*    margin-top: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*!* Additional styles for better readability *!*/
+/*.heading {*/
+/*    color: #3498db;*/
+/*}*/
+
+/*h2 {*/
+/*    color: #333;*/
+/*}*/
+
+/*p {*/
+/*    color: #555;*/
+/*}*/
+
+
+/* Weather.module.css */
+/*.cardContainer {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100vh; !* Set the height to 100% of the viewport height *!*/
+/*}*/
+
+/*.inputContainer {*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.searchInput {*/
+/*    padding: 10px;*/
+/*    font-size: 16px;*/
+/*    border: 1px solid #ddd;*/
+/*    border-radius: 5px;*/
+/*    margin-right: 10px;*/
+/*    transition: border-color 0.3s ease-in-out;*/
+/*}*/
+
+/*.searchInput:hover {*/
+/*    border-color: #3498db;*/
+/*}*/
+
+/*.searchButton {*/
+/*    padding: 10px 15px;*/
+/*    font-size: 16px;*/
+/*    background-color: #3498db;*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.3s ease-in-out;*/
+/*}*/
+
+/*.searchButton:hover {*/
+/*    background-color: #2980b9;*/
+/*}*/
+
+/*.weatherCard {*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 20px;*/
+/*    margin-top: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*!* Additional styles for better readability *!*/
+/*.heading {*/
+/*    color: #3498db;*/
+/*}*/
+
+/*!* Add style for the new class *!*/
+/*.weatherTitle {*/
+/*    color: #333;*/
+/*}*/
+
+/*p {*/
+/*    color: #555;*/
+/*}*/
+
+/* Weather.module.css */
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+.inputContainer {
+    margin-top: 10px;
+}
+
+.searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.searchInput:hover {
+    border-color: #e52222;
+}
+
+.searchButton {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: rgba(183, 49, 49, 0.8);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.searchButton:hover {
+    background-color: #c91010;
+}
+
+.weatherCard {
+    border: 1px solid #e71414;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Additional styles for better readability */
+.heading {
+    color: #b419c5;
+}
+
+.weatherTitle {
+    color: #333;
+}
+
+/* Add style for the new class */
+.weatherText {
+    color: #555;
+}
