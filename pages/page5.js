@@ -1,4 +1,4 @@
-//page5.js
+
 import React from 'react';
 import Chat from '../components/chat';
 const page5 = () => {
