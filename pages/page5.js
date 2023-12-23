@@ -1,11 +1,13 @@
-//about.js
+//page5.js
 import React from 'react';
-const Home = () => {
+import Chat from '../components/chat';
+const page5 = () => {
     return (
         <div>
             <h1>srthetdyjetj</h1>
             {/*  */}
+            <Chat />
         </div>
     );
 };
-export default Home;
+export default page5;
