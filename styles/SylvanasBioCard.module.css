@@ -1,0 +1,29 @@
+/* SylvanasBioCard.module.css */
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  
+    /* Adjust the size of the card */
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .imageContainer {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Add a hover effect */
+  .card:hover {
+    transform: scale(1.05);
+  }
+  

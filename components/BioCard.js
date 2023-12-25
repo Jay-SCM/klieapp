@@ -1,8 +1,8 @@
-// components/Card.js
+// components/BioCard.js
 import React from 'react';
-import styles from '../styles/Card.module.css';
+import styles from '../styles/BioCard.module.css';
 
-const Card = ({ imageUrl, title, linkTo }) => {
+const BioCard = ({ imageUrl, title, linkTo }) => {
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
@@ -18,8 +18,4 @@ const Card = ({ imageUrl, title, linkTo }) => {
   );
 };
 
-export default Card;
-
-
-
-
+export default BioCard;
